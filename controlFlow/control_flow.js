@@ -4,8 +4,11 @@ let isLoggedIn = true;
 let userMessage;
 let userType = "subscriber";
 let userCategory;
+let personRole = "enrolledMember";
+let dietAccess;
 let isAuthenticated = true;
-let authenticationStatus = isAuthenticated ? "Authenticated : "Not Authenticated";
+let authenticationStatus = isAuthenticated ? "Authenticated" : "Not Authenticated";
+
 
 if (userRole === "admin") {
     accessLevel = "Full access granted";
@@ -39,7 +42,19 @@ switch (userType) {
         userCategory = "Unknown";
 }
 
+if (personRole === "employee") {
+    dietAccess = "Authorized to access Dietary Services";
+} else if (personRole === "enrolledMember") {
+    dietAccess = "Authorized to access Dietary Services and one-to-one interaction with dietician";
+} else if (personRole === "subscriber") {
+    dietAccess = "Partial access to Dietary Services";
+} 
+else {
+    dietAccess = "Please subscribe first to access facility";
+}
+
 console.log("Access Level:", accessLevel);
 console.log("User Message:", userMessage);
 console.log("User Category:", userCategory);
 console.log("Authentication Status:", authenticationStatus);
+console.log("Eligibility:", dietAccess);

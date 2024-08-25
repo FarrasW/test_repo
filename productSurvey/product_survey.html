@@ -25,7 +25,9 @@
   </select><br>
   <label for="feedbackText">Feedback:</label><br>
   <textarea id="feedbackText" rows="5" cols="30" placeholder="Enter your feedback here" required></textarea><br>
-<button id="submitBtn">Submit Feedback</button>
+  <label for="userExperienceText">Your Experience:</label><br>
+  <textarea id="userExperienceText" rows="5" cols="30" placeholder="Please share your experience" required></textarea><br>
+  <button id="submitBtn">Submit Feedback</button>
 </form>
 <hr>
 <div id="userInfo" style="display: none;">
@@ -36,6 +38,7 @@
   <p>Job: <span id="userJob"></span></p>
   <p>Designation: <span id="userDesignation"></span></p>
   <p>Feedback for  <span id="userProductChoice"></span>: <span id="userFeedback"></span></p>
+  <p>Your experience with the product  <span id="userProductChoice"></span>: <span id="userExperience"></span></p>
 </div>
 <script src="./product_survey.js"></script>
 </body>

@@ -1,0 +1,22 @@
+{
+    "news_articles": [
+      {
+        "title": "What is Lorem Ipsum?",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "content": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        ]
+      },
+      {
+        "title": "Where does Lorem Ipsum come from?",
+        "description": "It has roots in a piece of classical Latin literature from 45 BC.",
+        "content": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        ]
+      }
+    ]
+  }
